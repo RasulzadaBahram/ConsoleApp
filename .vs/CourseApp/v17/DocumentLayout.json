@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Behram\\Desktop\\CourseApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68C16-845F-4B95-A198-069E300326FF}|DomainLayer\\CourseDomain.csproj|c:\\users\\behram\\desktop\\courseapp\\domainlayer\\common\\baseentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68C16-845F-4B95-A198-069E300326FF}|DomainLayer\\CourseDomain.csproj|solutionrelative:domainlayer\\common\\baseentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68C16-845F-4B95-A198-069E300326FF}|DomainLayer\\CourseDomain.csproj|c:\\users\\behram\\desktop\\courseapp\\domainlayer\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68C16-845F-4B95-A198-069E300326FF}|DomainLayer\\CourseDomain.csproj|solutionrelative:domainlayer\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68C16-845F-4B95-A198-069E300326FF}|DomainLayer\\CourseDomain.csproj|c:\\users\\behram\\desktop\\courseapp\\domainlayer\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68C16-845F-4B95-A198-069E300326FF}|DomainLayer\\CourseDomain.csproj|solutionrelative:domainlayer\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E2E18F-209E-421A-9863-9483A4088E53}|CourseSystem\\CourseSystem.csproj|c:\\users\\behram\\desktop\\courseapp\\coursesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E2E18F-209E-421A-9863-9483A4088E53}|CourseSystem\\CourseSystem.csproj|solutionrelative:coursesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseEntities.cs",
+              "DocumentMoniker": "C:\\Users\\Behram\\Desktop\\CourseApp\\DomainLayer\\Common\\BaseEntities.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Common\\BaseEntities.cs",
+              "ToolTip": "C:\\Users\\Behram\\Desktop\\CourseApp\\DomainLayer\\Common\\BaseEntities.cs",
+              "RelativeToolTip": "DomainLayer\\Common\\BaseEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T04:49:14.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Behram\\Desktop\\CourseApp\\DomainLayer\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\Behram\\Desktop\\CourseApp\\DomainLayer\\Entities\\Student.cs",
+              "RelativeToolTip": "DomainLayer\\Entities\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T04:46:12.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\Behram\\Desktop\\CourseApp\\DomainLayer\\Entities\\Group.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Entities\\Group.cs",
+              "ToolTip": "C:\\Users\\Behram\\Desktop\\CourseApp\\DomainLayer\\Entities\\Group.cs",
+              "RelativeToolTip": "DomainLayer\\Entities\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T04:46:04.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseSystem\\Program.cs",
+              "RelativeDocumentMoniker": "CourseSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseSystem\\Program.cs",
+              "RelativeToolTip": "CourseSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T04:40:56.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
