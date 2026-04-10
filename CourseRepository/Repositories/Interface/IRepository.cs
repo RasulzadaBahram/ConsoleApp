@@ -4,11 +4,11 @@ namespace CourseRepository.Repositories.Interface
 {
     public interface IRepository<T>where T : BaseEntities
     {
-        public void CreateGroup(T data);
-        public void UpdateGroup(T data);
-        public void DeleteGroup(T data);
-        public T GetGroupById(Predicate<T> predicate);
-        public List<T> GetAllGroup(Predicate<T> predicate);
+        public void Create(T data);
+        public void Update(T data);
+        public void Delete(T data);
+        public T GeById(Predicate<T> predicate);
+        public List<T> GetAll(Predicate<T> predicate);
 
     }
 }

@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "CourseDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CourseDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CourseDomain.dll": {}
+        }
+      },
+      "CourseRepository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CourseDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CourseRepository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CourseRepository.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CourseDomain/1.0.0": {
+      "type": "project",
+      "path": "../DomainLayer/CourseDomain.csproj",
+      "msbuildProject": "../DomainLayer/CourseDomain.csproj"
+    },
+    "CourseRepository/1.0.0": {
+      "type": "project",
+      "path": "../CourseRepository/CourseRepository.csproj",
+      "msbuildProject": "../CourseRepository/CourseRepository.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "CourseDomain >= 1.0.0",
+      "CourseRepository >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Behram\\.nuget\\packages\\": {},
@@ -38,7 +76,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseRepository\\CourseRepository.csproj": {
+              "projectPath": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseRepository\\CourseRepository.csproj"
+            },
+            "C:\\Users\\Behram\\Desktop\\CourseApp\\DomainLayer\\CourseDomain.csproj": {
+              "projectPath": "C:\\Users\\Behram\\Desktop\\CourseApp\\DomainLayer\\CourseDomain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

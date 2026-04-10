@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CourseRepository\CourseRepository.csproj" />
+    <ProjectReference Include="..\DomainLayer\CourseDomain.csproj" />
+  </ItemGroup>
+
 </Project>

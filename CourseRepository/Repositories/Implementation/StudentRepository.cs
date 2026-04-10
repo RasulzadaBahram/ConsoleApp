@@ -5,27 +5,27 @@ namespace CourseRepository.Repositories.Implementation
 {
     public class StudentRepository : IRepository<Student>
     {
-        public void CreateGroup(Student data)
+        public void Create(Student data)
         {
             throw new NotImplementedException();
         }
 
-        public void DeleteGroup(Student data)
+        public void Delete(Student data)
         {
             throw new NotImplementedException();
         }
 
-        public List<Student> GetAllGroup(Predicate<Student> predicate)
+        public Student GeById(Predicate<Student> predicate)
         {
             throw new NotImplementedException();
         }
 
-        public Student GetGroupById(Predicate<Student> predicate)
+        public List<Student> GetAll(Predicate<Student> predicate)
         {
             throw new NotImplementedException();
         }
 
-        public void UpdateGroup(Student data)
+        public void Update(Student data)
         {
             throw new NotImplementedException();
         }
