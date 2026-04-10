@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CourseDomain.Common;
 
 namespace CourseDomain.Entities
 {
-    internal class Student
+    public class Student:BaseEntities
     {
         public string Name { get; set; }
         public string Surname { get; set; }

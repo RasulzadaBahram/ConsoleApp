@@ -1,0 +1,12 @@
+C:\Users\Behram\Desktop\CourseApp\CourseController\bin\Debug\net8.0\CourseService.deps.json
+C:\Users\Behram\Desktop\CourseApp\CourseController\bin\Debug\net8.0\CourseService.dll
+C:\Users\Behram\Desktop\CourseApp\CourseController\bin\Debug\net8.0\CourseService.pdb
+C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\CourseService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\CourseService.AssemblyInfoInputs.cache
+C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\CourseService.AssemblyInfo.cs
+C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\CourseService.csproj.CoreCompileInputs.cache
+C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\CourseService.sourcelink.json
+C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\CourseService.dll
+C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\refint\CourseService.dll
+C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\CourseService.pdb
+C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\ref\CourseService.dll

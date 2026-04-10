@@ -1,0 +1,6 @@
+C:\Users\Behram\Desktop\CourseApp\CourseRepository\obj\Debug\net8.0\CourseRepository.csproj.AssemblyReference.cache
+C:\Users\Behram\Desktop\CourseApp\CourseRepository\obj\Debug\net8.0\CourseRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Behram\Desktop\CourseApp\CourseRepository\obj\Debug\net8.0\CourseRepository.AssemblyInfoInputs.cache
+C:\Users\Behram\Desktop\CourseApp\CourseRepository\obj\Debug\net8.0\CourseRepository.AssemblyInfo.cs
+C:\Users\Behram\Desktop\CourseApp\CourseRepository\obj\Debug\net8.0\CourseRepository.csproj.CoreCompileInputs.cache
+C:\Users\Behram\Desktop\CourseApp\CourseRepository\obj\Debug\net8.0\CourseRepository.sourcelink.json

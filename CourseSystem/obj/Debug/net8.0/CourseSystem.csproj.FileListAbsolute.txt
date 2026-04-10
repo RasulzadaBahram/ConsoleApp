@@ -1,0 +1,15 @@
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\bin\Debug\net8.0\CourseSystem.exe
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\bin\Debug\net8.0\CourseSystem.deps.json
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\bin\Debug\net8.0\CourseSystem.runtimeconfig.json
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\bin\Debug\net8.0\CourseSystem.dll
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\bin\Debug\net8.0\CourseSystem.pdb
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\CourseSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\CourseSystem.AssemblyInfoInputs.cache
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\CourseSystem.AssemblyInfo.cs
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\CourseSystem.csproj.CoreCompileInputs.cache
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\CourseSystem.sourcelink.json
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\CourseSystem.dll
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\refint\CourseSystem.dll
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\CourseSystem.pdb
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\CourseSystem.genruntimeconfig.cache
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\ref\CourseSystem.dll
