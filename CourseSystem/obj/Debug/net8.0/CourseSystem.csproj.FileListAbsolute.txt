@@ -13,3 +13,11 @@ C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\refint\CourseSys
 C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\CourseSystem.pdb
 C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\CourseSystem.genruntimeconfig.cache
 C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\ref\CourseSystem.dll
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\bin\Debug\net8.0\CourseDomain.dll
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\bin\Debug\net8.0\CourseRepository.dll
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\bin\Debug\net8.0\CourseService.dll
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\bin\Debug\net8.0\CourseService.pdb
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\bin\Debug\net8.0\CourseDomain.pdb
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\bin\Debug\net8.0\CourseRepository.pdb
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\CourseSystem.csproj.AssemblyReference.cache
+C:\Users\Behram\Desktop\CourseApp\CourseSystem\obj\Debug\net8.0\CourseSy.72200860.Up2Date

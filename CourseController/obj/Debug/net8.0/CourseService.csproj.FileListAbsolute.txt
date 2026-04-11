@@ -10,3 +10,9 @@ C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\CourseServic
 C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\refint\CourseService.dll
 C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\CourseService.pdb
 C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\ref\CourseService.dll
+C:\Users\Behram\Desktop\CourseApp\CourseController\bin\Debug\net8.0\CourseDomain.dll
+C:\Users\Behram\Desktop\CourseApp\CourseController\bin\Debug\net8.0\CourseRepository.dll
+C:\Users\Behram\Desktop\CourseApp\CourseController\bin\Debug\net8.0\CourseRepository.pdb
+C:\Users\Behram\Desktop\CourseApp\CourseController\bin\Debug\net8.0\CourseDomain.pdb
+C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\CourseService.csproj.AssemblyReference.cache
+C:\Users\Behram\Desktop\CourseApp\CourseController\obj\Debug\net8.0\CourseSe.9A85A0F5.Up2Date
