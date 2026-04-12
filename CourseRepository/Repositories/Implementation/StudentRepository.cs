@@ -15,7 +15,7 @@ namespace CourseRepository.Repositories.Implementation
             throw new NotImplementedException();
         }
 
-        public Student GeById(Predicate<Student> predicate)
+        public Student GetById(Predicate<Student> predicate)
         {
             throw new NotImplementedException();
         }

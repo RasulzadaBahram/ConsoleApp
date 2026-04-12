@@ -1,7 +1,7 @@
-﻿using CourseDomain.Entities;
-using CourseService.Implementations;
+﻿using CourseSystem.Controller;
+using CourseSystem.Helpers;
 
-namespace CourseSystem.Helpers;
+namespace CourseSystem;
 
 
 internal class Program
@@ -10,6 +10,8 @@ internal class Program
     {
         Helper.PrintConsole(ConsoleColor.Blue, "Select Option:");
         Helper.PrintConsole(ConsoleColor.Yellow, "1- CreateGroup \n2- Update Group \n3- Delete Group");
+        GroupController groupController = new ();
+        //StudentController studentController = new();
 
         while (true)
         {
@@ -17,26 +19,13 @@ internal class Program
             int selectNumber;
 
             bool isSelect = int.TryParse(selectedOption, out selectNumber);
-
-            Helper.PrintConsole(ConsoleColor.Blue, $"Group adini daxil edin: ");
-            string _group = Console.ReadLine();
-            Helper.PrintConsole(ConsoleColor.Blue, $"Teacher Name daxil edin: ");
-            string _teacher = Console.ReadLine();
-            Helper.PrintConsole(ConsoleColor.Blue, $"Otagin adi: ");
-            string _room = Console.ReadLine();
             if (isSelect)
             {
-                Group group = new Group {Name=_group,Teacher=_teacher, Room=_room };
-                Helper.PrintConsole(ConsoleColor.Green, $"Group Id:{group.Id},Name: {group.Name}, Teacher: {group.Teacher}, Room:{group.Room}");
-                
                 switch (selectNumber)
                 {
                     case 1:
-
-                        
-
-
-                        break;
+                        groupController.CreateGroup();
+                            goto SelectOption;
                 }
             }
             else

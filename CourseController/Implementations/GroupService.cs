@@ -12,7 +12,8 @@ namespace CourseService.Implementations
     public class GroupService : IGroupService
     {
         private GroupRepositor _groupRepositor;
-            int _count = 1;
+        int _count = 1;
+
         public Group Create(Group group)
         {
             group.Id = _count;

@@ -25,22 +25,66 @@ namespace CourseRepository.Repositories.Implementation
         }
         public void Update(Group data)
         {
-            throw new NotImplementedException();
+            try
+            {
+                if (data == null)
+                {
+                    throw new NotFoundException("Data not found");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
 
         public void Delete(Group data)
         {
-            throw new NotImplementedException();
+            try
+            {
+                if (data == null)
+                {
+                    throw new NotFoundException("Data not found");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            AppDbContext<Group>.datas.Remove(data);
         }
 
-        public Group GeById(Predicate<Group> predicate)
+        public Group GetById(Predicate<Group> predicate)
         {
-            throw new NotImplementedException();
+            if (predicate != null)
+            {
+                return AppDbContext<Group>.datas.Find(predicate);
+            }
+            else
+            {
+                return null;
+            }
         }
 
         public List<Group> GetAll(Predicate<Group> predicate)
         {
-            throw new NotImplementedException();
+            if (predicate != null)
+            {
+                return AppDbContext<Group>.datas.FindAll(predicate);
+            }
+            else
+            {
+                return AppDbContext<Group>.datas;
+            }
+        }
+        public List<Group> GetAllGroupsByTeacher(string teacher)
+        {
+            return AppDbContext<Group>.datas.FindAll(l => l.Teacher == teacher);
+
+        }
+        public List<Group> GetAllGroupsByGroup(int room)
+        {
+            return AppDbContext<Group>.datas.FindAll(l => l.Room == room);
         }
 
 

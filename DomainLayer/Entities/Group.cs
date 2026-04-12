@@ -7,6 +7,6 @@ namespace CourseDomain.Entities
     {
         public string Name { get; set; }
         public string Teacher { get; set; }
-        public string Room { get; set; }
+        public int Room { get; set; }
     }
 }
