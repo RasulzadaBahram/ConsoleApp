@@ -1,31 +1,35 @@
 ﻿using CourseDomain.Entities;
 using CourseRepository.Repositories.Implementation;
 using CourseService.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CourseService.Implementations
 {
     public class GroupService : IGroupService
     {
         private GroupRepositor _groupRepositor;
-        int _count = 1;
+        private int _count = 1;
+        public GroupService()
+        {
+            _groupRepositor=new GroupRepositor();
+        }
 
-        public Group Create(Group group)
+        public Group CreateGroup(Group group)
         {
             group.Id = _count;
             _groupRepositor.Create(group);
             _count++;
             return group;
-             
+
         }
 
-        public void Delete(int id)
+        public void DeleteGroup(int id)
         {
-            throw new NotImplementedException();
+            Group group = _groupRepositor.Get(l=>l.Id==id);
+        }
+
+        public List<Group> GetAllGroups()
+        {
+            return _groupRepositor.GetAll();
         }
 
         public Group GetGroupById(int id)
@@ -33,7 +37,17 @@ namespace CourseService.Implementations
             throw new NotImplementedException();
         }
 
-        public Group Update(int id, Group group)
+        public Group GetGroupByRoomCount(int roomCount)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Group GetGroupByTeacher(string teacher)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Group UpdateGroup(int id, Group group)
         {
             throw new NotImplementedException();
         }
