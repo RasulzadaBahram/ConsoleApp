@@ -77,9 +77,15 @@ internal class Program
                     case 13:
                         studentController.GetAllStudentsByGroupId();
                         goto SelectOption;
+<<<<<<< HEAD
                     case 14:
                         groupController.SearchGroupsByName();
                         goto SelectOption;
+=======
+                    //case 14:
+                    //    studentController.();
+                    //    goto SelectOption;
+>>>>>>> d75579d7ee9c5a91de1f72e307ef880627a56f56
                     case 15:
                         studentController.SearchStudentsByName();
                         goto SelectOption;

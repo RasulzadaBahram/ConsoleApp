@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Behram\\Desktop\\CourseApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67E2E18F-209E-421A-9863-9483A4088E53}|CourseSystem\\CourseSystem.csproj|c:\\users\\behram\\desktop\\courseapp\\coursesystem\\controller\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E2E18F-209E-421A-9863-9483A4088E53}|CourseSystem\\CourseSystem.csproj|solutionrelative:coursesystem\\controller\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E2E18F-209E-421A-9863-9483A4088E53}|CourseSystem\\CourseSystem.csproj|c:\\users\\behram\\desktop\\courseapp\\coursesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E2E18F-209E-421A-9863-9483A4088E53}|CourseSystem\\CourseSystem.csproj|solutionrelative:coursesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E2E18F-209E-421A-9863-9483A4088E53}|CourseSystem\\CourseSystem.csproj|c:\\users\\behram\\desktop\\courseapp\\coursesystem\\controller\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E2E18F-209E-421A-9863-9483A4088E53}|CourseSystem\\CourseSystem.csproj|solutionrelative:coursesystem\\controller\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F597C69-935C-4B1E-B1DA-51C17C17C5A6}|CourseController\\CourseService.csproj|c:\\users\\behram\\desktop\\courseapp\\coursecontroller\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F597C69-935C-4B1E-B1DA-51C17C17C5A6}|CourseController\\CourseService.csproj|solutionrelative:coursecontroller\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F597C69-935C-4B1E-B1DA-51C17C17C5A6}|CourseController\\CourseService.csproj|c:\\users\\behram\\desktop\\courseapp\\coursecontroller\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F597C69-935C-4B1E-B1DA-51C17C17C5A6}|CourseController\\CourseService.csproj|solutionrelative:coursecontroller\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8B2C5E-88C3-4C25-8999-8E568B989717}|CourseRepository\\CourseRepository.csproj|c:\\users\\behram\\desktop\\courseapp\\courserepository\\repositories\\implementation\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8B2C5E-88C3-4C25-8999-8E568B989717}|CourseRepository\\CourseRepository.csproj|solutionrelative:courserepository\\repositories\\implementation\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseSystem\\Controller\\GroupController.cs",
+              "RelativeDocumentMoniker": "CourseSystem\\Controller\\GroupController.cs",
+              "ToolTip": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseSystem\\Controller\\GroupController.cs",
+              "RelativeToolTip": "CourseSystem\\Controller\\GroupController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T00:51:13.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseController\\Implementations\\StudentService.cs",
+              "RelativeDocumentMoniker": "CourseController\\Implementations\\StudentService.cs",
+              "ToolTip": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseController\\Implementations\\StudentService.cs",
+              "RelativeToolTip": "CourseController\\Implementations\\StudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T00:40:30.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseRepository\\Repositories\\Implementation\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "CourseRepository\\Repositories\\Implementation\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseRepository\\Repositories\\Implementation\\StudentRepository.cs",
+              "RelativeToolTip": "CourseRepository\\Repositories\\Implementation\\StudentRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwFMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T00:11:45.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseController\\Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "CourseController\\Services\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseController\\Services\\IStudentService.cs",
+              "RelativeToolTip": "CourseController\\Services\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T00:09:48.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseSystem\\Controller\\StudentController.cs",
+              "RelativeDocumentMoniker": "CourseSystem\\Controller\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseSystem\\Controller\\StudentController.cs",
+              "RelativeToolTip": "CourseSystem\\Controller\\StudentController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T00:09:45.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseSystem\\Program.cs",
+              "RelativeDocumentMoniker": "CourseSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Behram\\Desktop\\CourseApp\\CourseSystem\\Program.cs",
+              "RelativeToolTip": "CourseSystem\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwFEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T00:09:43.987Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
