@@ -39,15 +39,13 @@ namespace CourseService.Implementations
             Group group = _groupRepositor.Get(x => x.Id == id);
             return group;
         }
-<<<<<<< HEAD
         public List<Group> SearchGroupsByName(string name)
         {
             return _groupRepositor.GetAll(
                 x => x.Name.ToLower().Trim() == name.ToLower().Trim()
             );
         }
-=======
->>>>>>> d75579d7ee9c5a91de1f72e307ef880627a56f56
+
 
         public Group GetAllGroupByRoomCount(int roomCount)
         {

@@ -12,7 +12,6 @@ namespace CourseSystem.Controller
 
         public void CreateStudent()
         {
-<<<<<<< HEAD
         StudentName: Helper.PrintConsole(ConsoleColor.Blue, "Name: ");
             string studentName = Console.ReadLine().Trim();
             if (studentName == "" || studentName == null)
@@ -27,23 +26,16 @@ namespace CourseSystem.Controller
                 Helper.PrintConsole(ConsoleColor.Red, "Duzgun ad daxil edin");
                 goto StudentSurname;
             }
-=======
-            Helper.PrintConsole(ConsoleColor.Blue, "Name: ");
-            string studentName = Console.ReadLine().Trim();
-            Helper.PrintConsole(ConsoleColor.Blue, "Surname: ");
-            string studentSurname = Console.ReadLine().Trim();
->>>>>>> d75579d7ee9c5a91de1f72e307ef880627a56f56
             Helper.PrintConsole(ConsoleColor.Blue, "Age: ");
         StudentAge: string studentAge = Console.ReadLine();
 
             int age;
             bool isStudentAge = int.TryParse(studentAge, out age);
-<<<<<<< HEAD
             if (age > 13)
             {
                 if (isStudentAge)
                 {
-                GroupId: Helper.PrintConsole(ConsoleColor.Blue, "Id: ");
+                GroupId: Helper.PrintConsole(ConsoleColor.Blue, "Group Id: ");
                     string StudentGroup = Console.ReadLine();
                     int id;
                     bool isStudentGroup = int.TryParse(StudentGroup, out id);
@@ -65,55 +57,19 @@ namespace CourseSystem.Controller
                     }
                     else
                     {
-                        Helper.PrintConsole(ConsoleColor.Red, "Please enter a valid group id number! \n ");
-                        goto GroupId;
-                    }
+                        Helper.PrintConsole(ConsoleColor.Red, "Enter Valid age");
+                        goto StudentAge;
 
-=======
-            if (isStudentAge)
-            {
-            GroupId: Helper.PrintConsole(ConsoleColor.Blue, "Group: ");
-                string StudentGroup = Console.ReadLine();
-                int id;
-                bool isStudentGroup = int.TryParse(StudentGroup, out id);
-
-                if (isStudentGroup)
-                {
-                    var group = _groupService.GetGroupById(id);
-                    if (group == null)
-                    {
-                        Helper.PrintConsole(ConsoleColor.Red, "Group Not Found");
-                        goto GroupId;
                     }
-                    Student student = new Student { Name = studentName, Surname = studentSurname, Age = age, Group = group };
-                    student = _studentService.CreateStudent(student);
-                    Helper.PrintConsole(ConsoleColor.Green, $"Student Id: {student.Id}, Name: {student.Name}, Surname: {student.Surname}, Age: {student.Age}");
->>>>>>> d75579d7ee9c5a91de1f72e307ef880627a56f56
 
 
 
                 }
                 else
                 {
-<<<<<<< HEAD
-                    Helper.PrintConsole(ConsoleColor.Red, "Enter Valid age");
-                    goto StudentAge;
-=======
-                    Helper.PrintConsole(ConsoleColor.Red, "Please enter a valid group id number! \n ");
-                    goto GroupId;
->>>>>>> d75579d7ee9c5a91de1f72e307ef880627a56f56
+                    Helper.PrintConsole(ConsoleColor.Red, $"Telebenin yasi azdir: {age}");
+                    goto StudentName;
                 }
-
-
-
-<<<<<<< HEAD
-            }
-            else
-            {
-                Helper.PrintConsole(ConsoleColor.Red, $"Telebenin yasi azdir: {age}");
-                goto StudentName;
-            }
-=======
 
             }
             else
@@ -124,8 +80,8 @@ namespace CourseSystem.Controller
 
 
 
->>>>>>> d75579d7ee9c5a91de1f72e307ef880627a56f56
         }
+
         public void UpdateStudent()
         {
         studentId: Helper.PrintConsole(ConsoleColor.Blue, "Add Student Id: ");
@@ -228,17 +184,10 @@ namespace CourseSystem.Controller
         public void GetAllStudentsByGroupId()
         {
         groupId: Helper.PrintConsole(ConsoleColor.Blue, "Add Group Id: ");
-<<<<<<< HEAD
             string studentId = Console.ReadLine();
             int id;
             bool isStudentId = int.TryParse(studentId, out id);
             if (isStudentId)
-=======
-            string groupId = Console.ReadLine();
-            int id;
-            bool isgroupId = int.TryParse(groupId, out id);
-            if (isgroupId)
->>>>>>> d75579d7ee9c5a91de1f72e307ef880627a56f56
             {
                 var students = _studentService.GetAllStudentsByGroupId(id);
                 if (students != null && students.Count > 0)
@@ -259,8 +208,8 @@ namespace CourseSystem.Controller
                 Helper.PrintConsole(ConsoleColor.Red, "Add correct id types: \n ");
                 goto groupId;
             }
-        }
 
+        }
         public void GetAllStudentsByAge()
         {
         SelectCase: Helper.PrintConsole(ConsoleColor.Blue, "Add Student Age: ");
@@ -310,3 +259,4 @@ namespace CourseSystem.Controller
         }
     }
 }
+

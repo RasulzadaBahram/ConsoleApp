@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\CourseController\\CourseService.csproj": {}
+    "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\CourseController\\CourseService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\CourseController\\CourseService.csproj": {
+    "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\CourseController\\CourseService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\CourseController\\CourseService.csproj",
+        "projectUniqueName": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\CourseController\\CourseService.csproj",
         "projectName": "CourseService",
-        "projectPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\CourseController\\CourseService.csproj",
+        "projectPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\CourseController\\CourseService.csproj",
         "packagesPath": "C:\\Users\\Classtime.PC_3_506_5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\CourseController\\obj\\",
+        "outputPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\CourseController\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\CourseRepository\\CourseRepository.csproj": {
-                "projectPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\CourseRepository\\CourseRepository.csproj"
+              "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\CourseRepository\\CourseRepository.csproj": {
+                "projectPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\CourseRepository\\CourseRepository.csproj"
               },
-              "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\DomainLayer\\CourseDomain.csproj": {
-                "projectPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\DomainLayer\\CourseDomain.csproj"
+              "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\DomainLayer\\CourseDomain.csproj": {
+                "projectPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\DomainLayer\\CourseDomain.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\CourseRepository\\CourseRepository.csproj": {
+    "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\CourseRepository\\CourseRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\CourseRepository\\CourseRepository.csproj",
+        "projectUniqueName": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\CourseRepository\\CourseRepository.csproj",
         "projectName": "CourseRepository",
-        "projectPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\CourseRepository\\CourseRepository.csproj",
+        "projectPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\CourseRepository\\CourseRepository.csproj",
         "packagesPath": "C:\\Users\\Classtime.PC_3_506_5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\CourseRepository\\obj\\",
+        "outputPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\CourseRepository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\DomainLayer\\CourseDomain.csproj": {
-                "projectPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\DomainLayer\\CourseDomain.csproj"
+              "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\DomainLayer\\CourseDomain.csproj": {
+                "projectPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\DomainLayer\\CourseDomain.csproj"
               }
             }
           }
@@ -145,14 +145,14 @@
         }
       }
     },
-    "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\DomainLayer\\CourseDomain.csproj": {
+    "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\DomainLayer\\CourseDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\DomainLayer\\CourseDomain.csproj",
+        "projectUniqueName": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\DomainLayer\\CourseDomain.csproj",
         "projectName": "CourseDomain",
-        "projectPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\DomainLayer\\CourseDomain.csproj",
+        "projectPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\DomainLayer\\CourseDomain.csproj",
         "packagesPath": "C:\\Users\\Classtime.PC_3_506_5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp\\DomainLayer\\obj\\",
+        "outputPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\ConsoleApp14\\DomainLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

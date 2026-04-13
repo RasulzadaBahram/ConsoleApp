@@ -89,8 +89,4 @@ namespace CourseRepository.Repositories.Implementation
 
 
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> d75579d7ee9c5a91de1f72e307ef880627a56f56

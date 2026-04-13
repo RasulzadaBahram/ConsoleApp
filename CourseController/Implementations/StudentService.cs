@@ -1,14 +1,6 @@
 ﻿using CourseDomain.Entities;
 using CourseRepository.Repositories.Implementation;
 using CourseService.Services;
-<<<<<<< HEAD
-=======
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
->>>>>>> d75579d7ee9c5a91de1f72e307ef880627a56f56
 
 namespace CourseService.Implementations
 {
@@ -56,11 +48,8 @@ namespace CourseService.Implementations
         }
         public List<Student> SearchStudentsByName(string name)
         {
-<<<<<<< HEAD
             return _studentRepository.GetAll(x => x.Name.ToLower().Trim() == name.ToLower().Trim());
-=======
-            return _studentRepository.GetAll(x => x.Name.ToLower().Trim() == name);
->>>>>>> d75579d7ee9c5a91de1f72e307ef880627a56f56
+
         }
     }
 }
