@@ -12,5 +12,6 @@ namespace CourseService.Services
         Student CreateStudent(Student student);
         Student UpdateStudent(int id, Student student);
         Student GetStudentById(int id);
+        void DeleteStudent(int id); 
     }
 }

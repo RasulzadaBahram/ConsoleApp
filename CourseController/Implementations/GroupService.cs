@@ -7,7 +7,8 @@ namespace CourseService.Implementations
     public class GroupService : IGroupService
     {
         private GroupRepositor _groupRepositor;
-        private int _count = 1;
+        private static int _count = 1;
+
         public GroupService()
         {
             _groupRepositor=new GroupRepositor();
@@ -24,32 +25,37 @@ namespace CourseService.Implementations
 
         public void DeleteGroup(int id)
         {
-            Group group = _groupRepositor.Get(l=>l.Id==id);
+            Group group = _groupRepositor.Get(x => x.Id == id);
+            _groupRepositor.Delete(group);
         }
 
         public List<Group> GetAllGroups()
         {
-            return _groupRepositor.GetAll();
+            return _groupRepositor.GetAll(null);
         }
 
         public Group GetGroupById(int id)
         {
-            throw new NotImplementedException();
+            Group group = _groupRepositor.Get(x => x.Id == id);
+            return group;
         }
 
-        public Group GetGroupByRoomCount(int roomCount)
+        public Group GetAllGroupByRoomCount(int roomCount)
         {
-            throw new NotImplementedException();
-        }
+            Group group = _groupRepositor.Get(x => x.Room == roomCount);
+            return group;
+        }   
 
-        public Group GetGroupByTeacher(string teacher)
+        public Group GetAllGroupByTeacher(string teacher)
         {
-            throw new NotImplementedException();
+            Group group = _groupRepositor.Get(x => x.Teacher == teacher);
+            return group;
         }
 
         public Group UpdateGroup(int id, Group group)
         {
-            throw new NotImplementedException();
+            _groupRepositor.Update(group);
+            return group;
         }
     }
 }

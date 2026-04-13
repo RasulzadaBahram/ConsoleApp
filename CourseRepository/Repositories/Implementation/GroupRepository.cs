@@ -54,7 +54,7 @@ namespace CourseRepository.Repositories.Implementation
             AppDbContext<Group>.datas.Remove(data);
         }
 
-        public Group GetById(Predicate<Group> predicate)
+        public Group Get(Predicate<Group> predicate)
         {
             if (predicate != null)
             {
@@ -79,12 +79,12 @@ namespace CourseRepository.Repositories.Implementation
         }
         public List<Group> GetAllGroupsByTeacher(string teacher)
         {
-            return AppDbContext<Group>.datas.FindAll(l => l.Teacher == teacher);
+            return AppDbContext<Group>.datas.FindAll(x => x.Teacher == teacher);
 
         }
-        public List<Group> GetAllGroupsByGroup(int room)
+        public List<Group> GetAllGroupsByName(int room)
         {
-            return AppDbContext<Group>.datas.FindAll(l => l.Room == room);
+            return AppDbContext<Group>.datas.FindAll(x => x.Room == room);
         }
 
 

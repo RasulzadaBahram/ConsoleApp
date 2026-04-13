@@ -9,7 +9,7 @@ namespace CourseService.Services
         void DeleteGroup(int id);
         Group GetGroupById(int id);
         List<Group> GetAllGroups();
-        Group GetGroupByTeacher(string teacher);
-        Group GetGroupByRoomCount(int roomCount);
+        Group GetAllGroupByTeacher(string teacher);
+        Group GetAllGroupByRoomCount(int roomCount);
     }
 }

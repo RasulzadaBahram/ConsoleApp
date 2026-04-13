@@ -22,6 +22,7 @@ namespace CourseSystem.Controller
             if (isRoomCount) 
             {
                 Group group = new Group { Name = groupName, Teacher = teacherName, Room = roomCount };
+                group=_groupService.CreateGroup(group);
                 Helper.PrintConsole(ConsoleColor.Green, $"Group Id:{group.Id},Name: {group.Name}, Teacher: {group.Teacher}, Room:{group.Room}");
             }
             else
@@ -38,7 +39,6 @@ namespace CourseSystem.Controller
             int id;
             bool isGroup=int.TryParse( groupId, out id);
             if (isGroup)
-
             {
                 Group group=_groupService.GetGroupById(id);
                 if (group != null)
@@ -122,7 +122,7 @@ namespace CourseSystem.Controller
         {
         groupTeacher: Helper.PrintConsole(ConsoleColor.Green, "Enter Group Teacher Name");
             string teacherName = Console.ReadLine().Trim();
-            Group group=_groupService.GetGroupByTeacher(teacherName);
+            Group group=_groupService.GetAllGroupByTeacher(teacherName);
             if (group != null)
             {
                 Helper.PrintConsole(ConsoleColor.Green, $"Group Id:{group.Id},Name: {group.Name}, Teacher: {group.Teacher}, Room:{group.Room}");
@@ -136,13 +136,13 @@ namespace CourseSystem.Controller
 
 
         }
-        public void GetGroupByRoom() 
+        public void GetAllGroupByRoom() 
         {
         groupRoom: Helper.PrintConsole(ConsoleColor.Green, "Enter Group Room");
             string groupRoom = Console.ReadLine().Trim();
             int room;
             bool isGroupRoom=int.TryParse(groupRoom, out room);
-            Group group=_groupService.GetGroupByRoomCount(room);
+            Group group=_groupService.GetAllGroupByRoomCount(room);
             if (group != null)
             {
                 Helper.PrintConsole(ConsoleColor.Green, $"Group Id:{group.Id},Name: {group.Name}, Teacher: {group.Teacher}, Room:{group.Room}");
@@ -150,8 +150,27 @@ namespace CourseSystem.Controller
             }
             else 
             {
-                Helper.PrintConsole(ConsoleColor.Red,$"There is no such room as: {group.Room}");
+                Helper.PrintConsole(ConsoleColor.Red,$"There is no such room as: {room}");
             }
+        }
+        public void DeleteGroup() 
+        {
+        groupId: Helper.PrintConsole(ConsoleColor.Green, "Enter Group Id: ");
+            string groupId = Console.ReadLine();
+            int id;
+            bool isGroupId=int.TryParse(groupId, out id);
+
+            if (isGroupId)
+            {
+                _groupService.DeleteGroup(id);
+                Helper.PrintConsole(ConsoleColor.Green,"Group Succesfully Deleted");
+            }
+            else 
+            {
+                Helper.PrintConsole(ConsoleColor.Red,"Group Not Found\nEnter Valid Id");
+                goto groupId;
+            }
+
         }
     }
 }

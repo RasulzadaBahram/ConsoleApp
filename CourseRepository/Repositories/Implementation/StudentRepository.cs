@@ -1,4 +1,6 @@
 ﻿using CourseDomain.Entities;
+using CourseRepository.Data;
+using CourseRepository.Repositories.Exceptions;
 using CourseRepository.Repositories.Interface;
 
 namespace CourseRepository.Repositories.Implementation
@@ -7,27 +9,80 @@ namespace CourseRepository.Repositories.Implementation
     {
         public void Create(Student data)
         {
-            throw new NotImplementedException();
+            try
+            {
+                if (data == null)
+                {
+                    throw new NotFoundException("Data Not Found");
+                }
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
 
         public void Delete(Student data)
         {
-            throw new NotImplementedException();
+            try
+            {
+                if (data == null)
+                {
+                    throw new NotFoundException("Data Not Found");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+           AppDbContext<Student>.datas.Remove(data);
         }
 
-        public Student GetById(Predicate<Student> predicate)
+        public Student Get(Predicate<Student> predicate)
         {
-            throw new NotImplementedException();
+            if (predicate != null)
+            {
+                return AppDbContext<Student>.datas.Find(predicate);
+            }
+            else 
+            {
+                return null;
+            }
         }
 
         public List<Student> GetAll(Predicate<Student> predicate)
         {
-            throw new NotImplementedException();
+            if (predicate != null)
+            {
+                return AppDbContext<Student>.datas.FindAll(predicate);
+            }
+            else
+            {
+                return null;
+            }
         }
 
         public void Update(Student data)
         {
-            throw new NotImplementedException();
+            try
+            {
+                if (data == null) 
+                {
+                    throw new NotFoundException("Data Not Found");
+                }
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+        public void GetAllStudentsByGroupId(int id) 
+        {
+            List<Student> students = AppDbContext<Student>.datas.FindAll(x => x.Group.Id == id);
+            if (students == null) 
+            {
+                throw new NotFoundException("Data Not Found");
+            }
         }
     }
 }
